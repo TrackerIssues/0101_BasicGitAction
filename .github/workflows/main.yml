@@ -9,7 +9,7 @@ jobs:
       - name: Hello
         run: echo Hello~ 
       - name: List
-              ls -al
+        run: ls -al
       - name: version
-              python -v
+        run: python -v
               
