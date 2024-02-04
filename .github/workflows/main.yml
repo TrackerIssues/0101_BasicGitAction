@@ -8,6 +8,8 @@ jobs:
     steps:
       - name: Hello
         run: echo Hello~ 
+      - name: List
               ls -al
+      - name: version
               python -v
               
