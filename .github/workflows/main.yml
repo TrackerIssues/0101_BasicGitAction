@@ -1,0 +1,13 @@
+name: HelloBasicGithubAction
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello
+        run: echo Hello~
+        run: ls -al
+              python -v
+              
