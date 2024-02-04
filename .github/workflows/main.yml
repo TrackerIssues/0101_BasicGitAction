@@ -12,7 +12,7 @@ jobs:
       - name: package list
         run: pip list
       - name: Up-Grade pip
-        run: python -m pip install --upgrade
+        run: python -m pip install --upgrade pip
       - name: Run Test.py
         run: python 001_Test.py
               
