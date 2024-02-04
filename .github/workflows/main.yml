@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello
-        run: echo Hello~
-        run: ls -al
+        run: echo Hello~ 
+              ls -al
               python -v
               
